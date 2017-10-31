@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.oztaking.com.a15_dialog.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_0"
+        style="@style/myStyle"
+        android:text="11111111" />
+    <TextView
+        android:id="@+id/tv_1"
+        style="@style/myStyle"
+        android:text="22222222" />
+    <TextView
+        android:id="@+id/tv_2"
+        style="@style/myStyle"
+        android:text="33333333" />
+    <TextView
+        android:id="@+id/tv_3"
+        style="@style/myStyle"
+        android:text="444444444" />
+
+    <Button
+        android:id="@+id/bt_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通对话框"/>
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选对话框"/>
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选对话框"/>
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框"/>
+
+</LinearLayout>
